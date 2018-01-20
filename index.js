@@ -22,6 +22,6 @@ usersRouter.get("/",function(req,res){
 });
 
 app.use("/users",usersRouter);
-app.listen(3000,"0.0.0.0",function(){
-  console.log("Started at "+3000);
+app.listen(80,"0.0.0.0",function(){
+  console.log("Started at "+80);
 })
